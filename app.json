@@ -50,18 +50,18 @@
         },
         "PLUGINS_REPO": {
             "description": "Fillup the username/reponame of the plugins repo.",
-            "value": "badmunda98/PbxPlugin",
+            "value": "DED-LEGEND/Dx-Plugin",
             "required": true
         },
         "DEPLOY_REPO": {
             "description": "Fillup the username/reponame of the deploy repo. Consider updating the default value with your own forked repo.",
-            "value": "Badhacker98/PBX_2.0",
+            "value": "DED-LEGEND/DX-PBX_2.0",
             "required": true
         }
     },
     "buildpacks": [
         {
-            "url": "https://github.com/Badmunda98/heroku-buildpack-ffmpeg-latest"
+            "url": "https://github.com/DED-LEGEND/heroku-buildpack-ffmpeg-latest"
         },
         {
             "url": "https://github.com/heroku/heroku-buildpack-chrome-for-testing"
